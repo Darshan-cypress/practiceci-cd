@@ -1,0 +1,70 @@
+# Project Name
+
+## Overview
+Briefly describe what your project does.
+
+## Prerequisites
+- Node.js (version X.X.X)
+- npm (version X.X.X)
+- Any other dependencies
+
+## Installation
+
+```powershell
+git clone <your-repo-url>
+cd <your-project-folder>
+npm install
+```
+
+## Running Tests
+
+```powershell
+npx playwright test
+```
+
+## Generating Allure Report
+
+```powershell
+npx allure generate allure-results --clean -o allure-report
+npx allure open allure-report
+```
+
+## Project Structure
+
+- `allure-report/` - Allure HTML reports
+- `allure-results/` - Allure raw results
+- `pageObject/` - Page Object Model files
+- `testdata/` - Test data files
+- `tests/` - Test scripts
+- `utils/` - Utility functions
+
+## How to Add a New Test
+
+1. Create a new file in the `tests/` directory.
+2. Use Playwright test syntax.
+3. Run tests as shown above.
+
+## Troubleshooting
+
+- If you face issues, check Node.js and npm versions.
+- Delete `node_modules` and run `npm install` again if dependencies fail.
+
+## License
+
+Add your license information here.
+
+
+=========================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
