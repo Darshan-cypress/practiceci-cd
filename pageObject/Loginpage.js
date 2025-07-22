@@ -8,9 +8,10 @@ export class LoginPage {
     }
 
     async navigateTo() {
-        await this.page.goto(process.env.BASE_URL);
+        await this.page.goto("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     }
 
+    
     async login(username, password) {
         await this.page.locator(this.username).fill(username)
         await this.page.locator(this.password).fill(password)
